@@ -20,4 +20,5 @@ Optional: `--since v1.0.0`, `--repo /path/to/checkout`, `--output /path/to/outpu
 
 ## Validation
 
-Run `python3 -m unittest -v test_changelog.py`. The tests create disposable repositories with real Git commands and exercise tagged history, no tags, null changes, Markdown escaping, malformed revisions, shallow history, and overwrite protection. A separate real GitHub repository sample is supplied in `sample/`.
+Run `python3 -m unittest -v test_changelog.py`. The tests create disposable repositories with real Git commands and exercise tagged history, no tags, null changes, Markdown escaping, malformed revisions, shallow history, and overwrite protection. A separate real GitHub repository sample is supplied in `SAMPLE_OUTPUT.md`.
+
